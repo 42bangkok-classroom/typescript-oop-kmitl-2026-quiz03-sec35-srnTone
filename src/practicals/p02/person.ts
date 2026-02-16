@@ -1,7 +1,7 @@
 export class Person {
     firstname?: string;
     lastname?: string;
-    private age?: number;
+    private _age?: number;
     static COUNTRY: string = 'Thailand';
 
     constructor(firstname?: string, lastname?: string) {
@@ -10,10 +10,10 @@ export class Person {
     }
 
     setAge(n: number){
-        this.age = n;
+        this._age = n;
     }
     getAge(){
-        return this.age;
+        return this._age;
     }
     getFullName(){
         return `${this.firstname} ${this.lastname}`;
