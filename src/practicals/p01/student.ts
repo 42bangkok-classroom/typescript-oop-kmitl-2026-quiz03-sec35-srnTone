@@ -9,7 +9,5 @@ export class Student {
 
     printName(){
         return `${this.firstname} ${this.lastname}`
-    }
-
+    }    
 }
-
