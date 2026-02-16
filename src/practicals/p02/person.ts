@@ -1,7 +1,7 @@
 export class Person {
     firstname?: string;
     lastname?: string;
-    protected _age?: number = 10;
+    private _age?: number;
     static COUNTRY: string = 'Thailand';
 
     constructor(firstname?: string, lastname?: string) {
