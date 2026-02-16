@@ -8,6 +8,6 @@ export class Student {
     }
 
     printName(){
-        return `${this.firstname} ${this.lastname}`
+        console.log(this.firstname, this.lastname);
     }    
 }
